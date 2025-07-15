@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Merriweather:wght@700&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --font-sans: 'Montserrat', sans-serif;
+  --font-heading: 'Merriweather', serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: black;
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
