@@ -14,9 +14,8 @@ const Hero = () => {
       <div  className="relative z-20 h-full w-full flex flex-col justify-center items-center text-white text-center px-4">
         <h1 className="text-5xl font-bold text-white">Christian Morales</h1>
         <p className="mt-4 text-xl">Software Engineer</p>
-        {/* New Resume Download Button */}
         <a
-          href="/path/to/resume.pdf" // Update with the actual path to your resume
+          href="src/assets/ChristianMoralesResume.pdf"
           download
           className="mt-6 px-6 py-3 border border-white rounded-full text-white hover:bg-white hover:text-black transition-colors"
         >

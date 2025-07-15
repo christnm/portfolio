@@ -84,7 +84,6 @@ const ExperienceSection = () => {
   return (
     <section className="min-h-screen bg-black text-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        {/* Professional Journey Title */}
         <div className="mb-20">
           <h3 className="text-2xl sm:text-3xl font-bold text-center mb-12 text-gray-300">
             Professional Journey
@@ -98,7 +97,6 @@ const ExperienceSection = () => {
 
         {/* Skills and Education Grid */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-6xl mx-auto">
-          {/* Skills Section */}
           <div className="order-2 lg:order-1">
             <SkillsWheels logos={logos} />
           </div>
@@ -410,24 +408,6 @@ const ProjectsShowcase = ({ projects = [] }) => {
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "Mobile-responsive task management application with drag-and-drop functionality, team collaboration features, and real-time notifications.",
-      technologies: ["React", "Firebase", "Material-UI", "PWA"],
-      image: "https://via.placeholder.com/800x400/7c3aed/ffffff?text=Task+Manager",
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: false
-    },
-    {
-      title: "Weather Analytics Dashboard",
-      description: "Data visualization dashboard that displays weather patterns and analytics using external APIs and interactive charts.",
-      technologies: ["Python", "Flask", "D3.js", "API Integration"],
-      image: "https://via.placeholder.com/800x400/8b5cf6/ffffff?text=Weather+Dashboard",
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: false
-    },
-    {
       title: "Machine Learning Model",
       description: "Predictive analytics model for customer behavior analysis with 95% accuracy rate using scikit-learn and TensorFlow.",
       technologies: ["Python", "TensorFlow", "Scikit-learn", "Pandas"],
@@ -518,7 +498,7 @@ const ProjectCard = ({ project }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
   // New state for read-more functionality in project description
   const [isExpanded, setIsExpanded] = useState(false);
-  const maxLength = 150; // Adjust as needed
+  const maxLength = 150;
 
   return (
     <div className="relative group">
