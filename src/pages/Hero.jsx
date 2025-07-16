@@ -15,7 +15,7 @@ const Hero = () => {
         <h1 className="text-5xl font-bold text-white">Christian Morales</h1>
         <p className="mt-4 text-xl">Software Engineer</p>
         <a
-          href="src/assets/ChristianMoralesResume.pdf"
+          href="/portfolio/assets/ChristianMoralesResume.pdf"
           download
           className="mt-6 px-6 py-3 border border-white rounded-full text-white hover:bg-white hover:text-black transition-colors"
         >
