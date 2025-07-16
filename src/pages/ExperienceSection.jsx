@@ -66,7 +66,7 @@ const ExperienceSection = () => {
     title: "Faq Generator",
     description: "AI-powered FAQ Generator built using React and Vite. It allows users to upload text or PDF files, or manually input text, and generates FAQs based on the content using OpenAI's GPT models.",  
     technologies: ["React", "TailwindCSS", "OpenAI API"],
-    image: "./src/assets/faq.jpg",
+    image: "/portfolio/assets/faq.jpg",
     liveUrl: "https://faq-generator-mu.vercel.app/",
     githubUrl: "https://github.com/christnm/faqGenerator",
     featured: true
@@ -75,7 +75,7 @@ const ExperienceSection = () => {
   title: "The ShoeMaster Store",
   description: "The ShoeMaster is my first-ever web development project, built to learn and explore the fundamentals of React and modern web technologies. It is an e-commerce application designed to showcase and sell men's shoes. The app features dynamic product displays, user authentication, and integration with Firebase for real-time data management. With a responsive design and clean UI built using React Bootstrap, ShoeMaster provides a seamless user experience. This project represents my initial step into software development and highlights my ability to learn and implement new technologies.",
   technologies: ["React", "Firebase", "Bootstrap"],
-  image: "./src/assets/logo512.png",
+  image: "/portfolio/assets/logo512.png",
   liveUrl: "https://theshoemaster.web.app/",
   githubUrl: 'https://github.com/christnm/TheShoeMaster',
   featured: true
@@ -359,7 +359,7 @@ const EducationCard = ({ education }) => {
           {/* University logo placeholder */}
           <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-white p-2 shadow-xl border-2 border-gray-300 hover:border-purple-500 transition-all duration-300">
             <div className="w-full h-full bg-gray-200 rounded-full flex items-center justify-center text-gray-600 text-xs font-bold">
-              <img src="./src/assets/fiskLogo.png" alt="FISK"></img>
+              <img src="/portfolio/assets/fiskLogo.png" alt="FISK"></img>
             </div>
           </div>
 
